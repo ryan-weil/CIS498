@@ -1,0 +1,32 @@
+export interface TeamSeason {
+  statId: number;
+  teamId: number;
+  season: number;
+  name: string;
+  team: string;
+  wins: number;
+  losses: number;
+  fieldGoalsMade: number;
+  fieldGoalsAttempted: number;
+  fieldGoalsPercentage: number;
+  twoPointersMade: number;
+  twoPointersAttempted: number;
+  twoPointersPercentage: number;
+  threePointersMade: number;
+  threePointersAttempted: number;
+  threePointersPercentage: number;
+  freeThrowsMade: number;
+  freeThrowsAttempted: number;
+  freeThrowsPercentage: number;
+  offensiveRebounds: number;
+  defensiveRebounds: number;
+  rebounds: number;
+  assists: number;
+  steals: number;
+  blockedShots: number;
+  turnovers: number;
+  personalFouls: number;
+  points: number;
+  doubleDoubles: number;
+  tripleDoubles: number;
+}
